@@ -11,6 +11,8 @@ public class Main {
         System.out.println(two.getInstanceNumber());
         System.out.println(three.getInstanceNumber());
 
+        System.out.println("=========================");
+
         System.out.println(Math.PI);
 
         int pw = 52923994;
@@ -20,6 +22,13 @@ public class Main {
         password.letMeIn(1);
         password.letMeIn(232422);
         password.letMeIn(52923994);
+
+        System.out.println("===========================");
+
+        System.out.println("Main method called");
+        SIBTest test = new SIBTest();
+        test.someMethod();
+        System.out.println("Owner is " + SIBTest.owner);
     }
 
 }
