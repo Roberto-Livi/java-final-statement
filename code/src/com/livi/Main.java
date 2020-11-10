@@ -14,7 +14,7 @@ public class Main {
         System.out.println(Math.PI);
 
         int pw = 52923994;
-        Password password = new Password(pw);
+        ExtendedPassword password = new ExtendedPassword(pw);
         password.storePassword();
 
         password.letMeIn(1);
